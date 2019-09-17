@@ -1,0 +1,252 @@
+# Virtual Hosts
+#
+<VirtualHost *:80>
+  ServerName localhost
+  ServerAlias localhost
+  DocumentRoot "${INSTALL_DIR}/www"
+  <Directory "${INSTALL_DIR}/www/">
+    Options +Indexes +Includes +FollowSymLinks +MultiViews
+    AllowOverride All
+    Require local
+  </Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName www.c-u-labs.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/web"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/web/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName www.apd.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/apd"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/apd/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+#
+<VirtualHost *:80>
+	ServerName www.c-u-labs.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/web"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/web/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName www.apd.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/apd"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/apd/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
+
+#
+<VirtualHost *:80>
+	ServerName watismboutrecht.org
+	DocumentRoot "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test"
+	<Directory  "c:/users/troy/onedrive - mbo utrecht/2019-2020/blok 1/test/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
+
